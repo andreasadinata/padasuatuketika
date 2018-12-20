@@ -1,0 +1,72 @@
+/*general*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+    font-family: Roboto;
+}
+
+main {
+  background-color: #F5F4F2;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+
+.middle-logo {
+  padding-top: 100px;;
+}
+
+.middle-logo img {
+  width: 300px;
+}
+
+.title {
+  margin: 4px 0;
+}
+
+.title h1 {
+  font-size: 28px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  font-weight: 100;
+  padding: 0 0 2px;
+}
+
+.title span {
+  font-weight: 900 !important;
+  margin: 0 3px;
+  text-shadow: 1px 0 #000000;
+}
+
+.title h2 {
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.account-link {
+  margin-top: 12px;
+}
+
+.account-link a {
+ display: inline-block;
+ margin: 0 5px;
+}
+
+.account-link img {
+  width: 30px;
+}
